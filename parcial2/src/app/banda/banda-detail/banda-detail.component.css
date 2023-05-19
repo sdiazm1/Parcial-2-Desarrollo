@@ -1,0 +1,17 @@
+.banda-detail {
+  width: 80%;
+  max-width: 90%;
+  margin: 2rem auto;
+}
+
+@media (min-width: 768px) {
+  .banda-detail {
+    width: calc(100% - 4rem);
+    max-width: 80%;
+  }
+}
+
+.custom_img {
+  height: min(100px, 75%);
+  width: 75%;
+}
